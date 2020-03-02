@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "HPC novice"
+title: "HPC Intro for SANBI Biocourse 2020"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: ruben@sanbi.ac.za
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -20,7 +20,7 @@ kind: "lesson"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: <USERNAME>/<PROJECT>
+repository: SANBI-SA/hpc-in-a-day
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
@@ -38,8 +38,8 @@ training_site: "https://swcarpentry.github.io/instructor-training"
 # this is the scheduler to be used for the workshop
 # possible values: lsf, slurm, pbs
 workshop_scheduler: "slurm"
-workshop_login_host: "cray-1"
-workshop_shared_fast_filesystem: "/fastfs"
+workshop_login_host: "biocourse-headnode.sanbi.ac.za"
+workshop_shared_fast_filesystem: "/data"
 
 # Surveys.
 pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="

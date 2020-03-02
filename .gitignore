@@ -12,3 +12,4 @@ tikz/*aux
 tikz/*pdf
 tikz/*log
 *.lprof
+.jekyll-cache
